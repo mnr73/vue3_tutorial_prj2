@@ -1,15 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <multiInput v-model="value" />
+  <!-- <multiInput /> -->
+  <hr />
+  {{ value }}
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import multiInput from "@/components/multiInput.vue";
 
 export default {
   name: "App",
-  components: {
-    HelloWorld,
+  components: { multiInput },
+  data() {
+    return {
+      value: ["one", "two"],
+    };
   },
 };
 </script>
@@ -19,7 +24,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
 }

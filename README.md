@@ -1,24 +1,5 @@
-# prj2
+# multi input in vue 3
 
-## Project setup
-```
-npm install
-```
+a simple vue 3 cli project related to youtube tutorial in below link
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://www.youtube.com/playlist?list=PLnhUuGnd2lXJAt38ae--98TMb7M38vF0-
